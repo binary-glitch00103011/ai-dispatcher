@@ -1,11 +1,10 @@
-# AI Dispatcher Makefile
-# The 'Architect's' build script
-
 CXX = g++
 CXXFLAGS = -O3 -Wall
 TARGET = ai
 SRC = ai_dispatcher.cpp
 PREFIX = /usr/local/bin
+CONFIG_DIR = $(HOME)/.config
+CONFIG_FILE = $(CONFIG_DIR)/ai.conf
 
 all: $(TARGET)
 
@@ -13,15 +12,27 @@ $(TARGET): $(SRC)
 	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET)
 
 install: $(TARGET)
-	@echo "Installing $(TARGET) to $(PREFIX)..."
+	@echo "Installing binary to $(PREFIX)..."
 	sudo cp $(TARGET) $(PREFIX)/
 	sudo chmod 755 $(PREFIX)/$(TARGET)
-	@echo "Done. Create your config at ~/.config/ai.conf"
+	
+	@echo "Checking for config directory..."
+	mkdir -p $(CONFIG_DIR)
+	
+	@if [ ! -f $(CONFIG_FILE) ]; then \
+		echo "Installing default config to $(CONFIG_FILE)..."; \
+		cp config/ai.conf.example $(CONFIG_FILE); \
+		chmod 644 $(CONFIG_FILE); \
+	else \
+		echo "Config file already exists. Skipping overwrite to protect your settings."; \
+	fi
+	@echo "Done. You can now run 'ai -g hello'"
 
 clean:
 	rm -f $(TARGET)
 
 uninstall:
 	sudo rm -f $(PREFIX)/$(TARGET)
+	@echo "Note: Configuration file at $(CONFIG_FILE) was left intact."
 
 .PHONY: all install clean uninstall
