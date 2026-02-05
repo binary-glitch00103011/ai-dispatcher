@@ -70,4 +70,3 @@ The Team
 • Architect: Gemini (AI)
 
 • Inspector: Electra (Makulu AI)
-
