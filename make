@@ -1,3 +1,30 @@
+# --- Variables ---
+PREFIX = /usr/local/bin
+# This anchors the 'Home' to the actual user home, even if running as sudo
+REAL_HOME = $(shell eval echo ~$(SUDO_USER))
+CONFIG_DIR = $(REAL_HOME)/.config/ai
+# This anchors the 'Source' to wherever you currently are
+SRC_DIR = $(CURDIR)/config
+
+# --- Targets ---
+install:
+	@echo "Installing to $(PREFIX)..."
+	install -d $(DESTDIR)$(PREFIX)
+	install -m 755 ai $(DESTDIR)$(PREFIX)/ai
+	
+	@echo "Setting up config in $(CONFIG_DIR)..."
+	install -d $(DESTDIR)$(CONFIG_DIR)
+	# Fixed Line 24: Points directly to the local config folder
+	cp $(SRC_DIR)/ai.conf.example $(DESTDIR)$(CONFIG_DIR)/ai.conf
+	
+	@echo "Installation complete."
+
+.PHONY: install
+
+
+************************************************
+
+
 CXX = g++
 CXXFLAGS = -O3 -Wall
 TARGET = ai
