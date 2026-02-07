@@ -1,5 +1,3 @@
-AI Dispatcher (BETA / WORK-IN-PROGRESS)
-
 # AI Dispatcher (BETA / WORK-IN-PROGRESS)
 
 > **WHAT IS THIS?** (For novice & non-technical users)
@@ -65,7 +63,7 @@ Create a file at `~/.config/ai.conf`:
 ```
 
 The Team
-• Project Manager: [User]
+• Project Manager: (binary_glitch)
 
 • Architect: Gemini (AI)
 
