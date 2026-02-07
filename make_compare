@@ -4,7 +4,7 @@ TARGET = ai
 SRC = ai_dispatcher.cpp
 SRC_DIR = $(CURDIR)/config
 PREFIX = /usr/local/bin
-REAL_HOME = $(shell eval echo ~$(SUDO_USER))
+REAL_HOME = $(shell eval echo ~$(USER))
 CONFIG_DIR = $(HOME)/.config
 CONFIG_FILE = $(CONFIG_DIR)/ai.conf
 
