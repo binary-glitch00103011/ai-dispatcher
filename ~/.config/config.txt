@@ -1,4 +1,0 @@
-# Flag:Command
--g:gemini
--e:makulu-ai
--o:ollama run llama3
