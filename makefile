@@ -16,7 +16,7 @@ $(TARGET): $(SRC)
 install: $(TARGET)
 	@echo "Installing binary to $(PREFIX)..."
 	install -d $(CONFIG_DIR)$(PREFIX)
-	install -m 755 $(TARGET)$(PREFIX)/$(TARGET)
+	install -m 755 $(TARGET) $(PREFIX)/$(TARGET)
 	
 	@echo "Ensuring config directory exists..."
 	install -d $(CONFIG_DIR)
