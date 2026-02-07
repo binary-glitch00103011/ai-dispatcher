@@ -9,7 +9,7 @@
 
 /**
  * THE INSPECTOR'S TRIM: Removes leading/trailing whitespace
- * Makes the config file forgiving if you have extra spaces.
+ * Makes the configig file forgiving if you have extra spaces.
  */
 std::string trim(const std::string& str) {
     size_t first = str.find_first_not_of(" \t");
@@ -27,7 +27,7 @@ std::map<std::string, std::string> loadProviders(std::string path) {
     std::string line;
 
     if (!file.is_open()) {
-        std::cerr << "!! CONFIG ERROR: Missing file at " << path << std::endl;
+        std::cerr << "!! configIG ERROR: Missing file at " << path << std::endl;
         return providerMap; 
     }
 
@@ -58,10 +58,10 @@ int main(int argc, char* argv[]) {
         std::cerr << "!! SYSTEM ERROR: $HOME not found." << std::endl;
         return 1;
     }
-    std::string configPath = std::string(home) + "/.config/ai.conf";
+    std::string configigPath = std::string(home) + "/.configig/ai.config";
     
     // 3. INITIALIZE: Load providers
-    auto providers = loadProviders(configPath);
+    auto providers = loadProviders(configigPath);
 
     // 4. DISPATCH: The Security Hardening (fork/execvp)
     std::string flag = argv[1];
