@@ -10,13 +10,13 @@
 If you just want to get this running, follow these three steps:
 
 1. **Install:** Download the files, open your terminal in that folder, and type:
-   `make && sudo make install`
+   `sudo make && sudo make install`
 2. **Setup:** Create a text file in your home folder at `.config/ai.conf` and list your AIs like this:
    `-g:gemini`
 3. **Talk:** Type `ai -g Hello there!` and your message will be sent to Gemini instantly.
 
 
-HEADS UP: This code is currently in "Draft" status. I am building this as a 3-man digital team (Human PM, Gemini Architect, and Electra Inspector). It is released now for peer review and feedback before I perform the final "Bare Metal" installation on my local machine.
+HEADS UP: This code is currently in "Draft" status. I am building this as a 3-man digital team (binary-glitch [Human] PM, Gemini [AI] Architect, and Electra [AI] Inspector). It is released now for peer review and feedback.
 
 Current Goal
 Creating a lean, hardened C++ gateway for multiple AI providers (Gemini, Makulu, etc.) using `execvp()` to bypass shell injection risks.
