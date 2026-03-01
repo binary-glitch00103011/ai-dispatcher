@@ -5,6 +5,11 @@
 
 ---
 
+
+**SECURITY WARNING:**
+This code currently does not sanitize against input and config injection.
+
+
 ### 🚀 Quick Start
 
 If you just want to get this running, follow these three steps:
