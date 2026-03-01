@@ -4,9 +4,9 @@ TARGET = ai
 SRC = ai_dispatcher.cpp
 REAL_HOME = $(shell eval echo ~$(SUDO_USER))
 PREFIX = /usr/local/bin
-CONFIG_DIR = $(REAL_HOME)/.config
+CONFIG_DIR = $(REAL_HOME)/.config/ai
 CONFIG_FILE = $(CONFIG_DIR)/ai.config
-SRC_CONFIG = $(CURDIR)/.config/ai.config
+SRC_CONFIG = $(CURDIR)/config/ai.config
 
 all: $(TARGET)
 
@@ -15,7 +15,7 @@ $(TARGET): $(SRC)
 
 install: $(TARGET)
 	@echo "Installing binary to $(PREFIX)..."
-	install -d $(CONFIG_DIR)$(PREFIX)
+	install -d $(PREFIX)
 	install -m 755 $(TARGET) $(PREFIX)/$(TARGET)
 	
 	@echo "Ensuring config directory exists..."
