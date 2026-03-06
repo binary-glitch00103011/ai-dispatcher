@@ -1,3 +1,31 @@
+#                                                                          =
+#`1010101010                                                       `10101010101.                                                      
+#                                                                     `10    `10.                                                     
+#  101010                                      =                      `10  =   10                                     `101`   0       
+#  10`       `10      10 `10  10`     10   ,1010101,  .1010101"       `10  =  :10  10.  .10101010. `10 ,010101010'   10101` 10        
+#  1010101010 `10    10` `10  1010`   10   10  _  10                  `10      01  10.  10         `10     10       10` 10  10        
+#              `10  10`       10 101` 10   10  =      .10101:         `10101010'        10   10101         10      10   10  10        
+#               .1010.   `10  10   10101   10     10  .10             '            10.  10      10 `10     10     ;1    10  10        
+#                .10,    `10  10     101   101010101  .10101010`                   10.  1010101010 `10     10     10  0101  10101010. 
+#,°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°`10,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º10.¸¸,ø¤º°`°º¤ø,`10ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤,
+#`.                      `10                                                       10.             `10                                     ;
+#  ¤                                              _(¯`·._.·(¯`·._.·COVENANT·._.·´¯)·._.·´¯)_                                              ¤ 
+#  ø                                                                                                                                      ø
+# '                                               EvinceDigital Ethical Open Source Covenant:                                              ' 
+#:                                                                                                                                          :
+#:           This source code is open source; you can redistribute it and/or modify it under the terms of the EvinceDigital                 : 
+# °           OpenWeb Covenant as published by the EvinceDigital.                                                                           °
+#  ¤                                                                                                                                      ¤     
+#  ø         This source code is distributed in the hope that it will be useful,but without any assurance or guarantee or                 ø         
+# '           any implied fitness for any purpos. This is not a legal document, but rather it is an ethical appeal to one's                '  
+#:            sense of moral obligation. It is a request to uphold the commonly known standards of Open Source coding & some                :
+#:            hard earned lessons outlined in the rest of the EvinceDigital Ethical OpenWeb Covenant.                                       :
+# °                                                                                                                                        °
+#  ¤         You should have received a copy of the EvinceDigital Ethical OpenWeb Covenant along with this source code; if not,           ¤
+#  ø          write to the EvinceDigital leader, @ binary.glitch@gmail.com.                                                               ø
+#.°                                                                                                                                        ° 
+#°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º' 
+
 CXX = g++
 CXXFLAGS = -O3 -Wall
 TARGET = ai
