@@ -1,0 +1,70 @@
+                                                                       =
+`1010101010                                                       `10101010101.                                                      
+                                                                     `10    `10.                                                     
+  101010                                      =                      `10  =   10                                     `101`   0       
+  10`       `10      10 `10  10`     10   ,1010101,  .1010101"       `10  =  :10  10.  .10101010. `10 ,010101010'   10101` 10        
+  1010101010 `10    10` `10  1010`   10   10  _  10                  `10      01  10.  10         `10     10       10` 10  10        
+              `10  10`       10 101` 10   10  =      .10101:         `10101010'        10   10101         10      10   10  10        
+               .1010.   `10  10   10101   10     10  .10             '            10.  10      10 `10     10     ;1    10  10        
+                .10,    `10  10     101   101010101  .10101010`                   10.  1010101010 `10     10     10  0101  10101010. 
+,°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°`10,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º10.¸¸,ø¤º°`°º¤ø,`10ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤,
+`.                      `10                                                       10.             `10                                     ;
+  ¤                                              _(¯`·._.·(¯`·._.·COVENANT·._.·´¯)·._.·´¯)_                                              ¤ 
+  ø                                                                                                                                      ø
+ '                                               EvinceDigital Ethical Open Source Covenant:                                              ' 
+:                                                                                                                                          :
+:           This source code is open source; you can redistribute it and/or modify it under the terms of the EvinceDigital                 : 
+ °           OpenWeb Covenant as published by the EvinceDigital.                                                                           °
+  ¤                                                                                                                                      ¤     
+  ø         This source code is distributed in the hope that it will be useful,but without any assurance or guarantee or                 ø         
+ '           any implied fitness for any purpos. This is not a legal document, but rather it is an ethical appeal to one's                '  
+:            sense of moral obligation. It is a request to uphold the commonly known standards of Open Source coding & some                :
+:            hard earned lessons outlined in the rest of the EvinceDigital Ethical OpenWeb Covenant.                                       :
+ °                                                                                                                                        °
+  ¤         You should have received a copy of the EvinceDigital Ethical OpenWeb Covenant along with this source code; if not,           ¤
+  ø          write to the EvinceDigital leader, @ binary.glitch@gmail.com.                                                               ø
+.°                                                                                                                                        ° 
+°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º' 
+
+
+                         -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+                                                  EvinceDigital Ethical Open Source Covenant:
+                                                                                                                                          
+                          This source code is open source; you can redistribute it and/or modify it under the terms 
+                           of the EvinceDigital OpenWeb Covenant as published by the EvinceDigital.                                                                           
+                                   
+                                                                                                                                          
+                          This source code is distributed in the hope that it will be useful,but without any assurance 
+                           or guarantee or any implied fitness for any purpose. This is not a legal document, but 
+                           rather it is an ethical appeal to one's sense of moral obligation. It is a request to uphold 
+                           the commonly known standards of Open Source coding & some hard earned lessons outlined in the 
+                           rest of the EvinceDigital Ethical OpenWeb Covenant.                                       
+                                   
+                                                                                                                                         
+                          You should have received a copy of the EvinceDigital Ethical OpenWeb Covenant along with this 
+                           source code; if not, write to the EvinceDigital leader, @ binary.glitch@gmail.com.
+
+
+                          This Covenant is rooted in the hard-won lessons of open-source history, specifically 
+                           the challenges faced by pioneers like Simone Margaritelli (EvilSocket) regarding the 
+                           responsible distribution of tools. We honor these lessons not as constraints, but as 
+                           a roadmap for sustainable, ethical community growth. By choosing to integrate this code, 
+                           you are stepping into a lineage of developers who value intent as much as execution.
+
+
+                          By choosing to integrate this code, you enter into a Covenant with the EvinceDigital 
+                           project. You are not merely a user; you are a participant in a vision that prioritizes 
+                           transparency, auditability, and ethical stewardship over unchecked scaling. You hold 
+                           this code in trust, and your engagement is a testament to the shared value of integrity 
+                           in the digital commons. We thank you for handling in with the consideration and respect 
+                           it deserves.
+
+
+                          Adopting, modifying, & redistributing open source code is not an easy commitment. It 
+                           requires work, you carry an obligation to site your sources, and use your own API keys
+                           and other trusted credentials. We understand and respect this commitment, and appreciate 
+                           your reverence for the community and the open source process.
+
+
+                         -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
