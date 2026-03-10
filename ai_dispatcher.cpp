@@ -51,7 +51,7 @@ std::string trim(const std::string& str) {
 }
 
 /***********************************
- * THE ARCHITECT'S PROVIDER LOADER *
+ * ARCHITECT'S COLLABORATOR LOADER *
  ***********************************/
 
 std::map<std::string, std::string> loadProviders(std::string path) {
@@ -93,7 +93,7 @@ int main(int argc, char* argv[]) {
     }
     std::string configPath = std::string(home) + "/.config/ai/ai.config";
     
-    // 3. INITIALIZE: Load providers
+    // 3. INITIALIZE: Load Collaborators
     auto providers = loadProviders(configPath);
 
     // 4. DISPATCH: The Security Hardening (fork/execvp)
@@ -104,7 +104,7 @@ int main(int argc, char* argv[]) {
         // execvp needs a NULL-terminated array of char pointers (old school!)
         std::vector<char*> execArgs;
 
-        // The first argument is the command itself (the provider)
+        // The first argument is the command itself (the collaborator)
         execArgs.push_back((char*)providers[flag].c_str());
 
         // The rest are the message words from the user
@@ -113,12 +113,12 @@ int main(int argc, char* argv[]) {
         }
         execArgs.push_back(nullptr); // Final NULL required
 
-        // FORK: Create a child process to run the AI tool
+        // FORK: Create a child process to run the AI peer
         pid_t pid = fork();
 
         if (pid == 0) {
-            // We are in the CHILD process: Execute the provider
-            // This replaces the shell injection risk entirely
+            // We are in the CHILD process: Execute the collaborator
+            // This bypasses the shell injection risk entirely
             execvp(execArgs[0], execArgs.data());
             
             // If execvp returns, it failed
