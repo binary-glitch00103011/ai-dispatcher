@@ -1,6 +1,6 @@
 # AI Dispatcher (BETA / WORK-IN-PROGRESS)
 
-> **WHAT IS THIS?** (An explanation For novice & non-technical users)
+> **WHAT IS THIS?**
 > This is command line tool for collaborating with multiple AIs (like Gemini, Ollama, or specialized Linux AIs), this tool lets you talk to all of them from one single command in your terminal. Instead of opening different apps, you just type a simple shortcut, and this dispatcher sends your message to the right AI collaborator. It does not include AI agents, it pipes you prompts to the approprate AI based on a flag you set in the con fig file. It also allows you to pipe the response from one AI to another.
 
 ---
