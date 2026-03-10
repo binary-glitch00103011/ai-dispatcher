@@ -19,9 +19,9 @@
 #  ø         This source code is distributed in the hope that it will be useful,but without any assurance or guarantee or                 ø         
 # '           any implied fitness for any purpos. This is not a legal document, but rather it is an ethical appeal to one's                '  
 #:            sense of moral obligation. It is a request to uphold the commonly known standards of Open Source coding & some                :
-#:            hard earned lessons outlined in the rest of the EvinceDigital Ethical OpenWeb Covenant.                                       :
+#:            hard earned lessons outlined in the rest of the EvinceDigital Ethical Open Source Covenant.                                   :
 # °                                                                                                                                        °
-#  ¤         You should have received a copy of the EvinceDigital Ethical OpenWeb Covenant along with this source code; if not,           ¤
+#  ¤         You should have received a copy of the EvinceDigital Ethical Open Source Covenant along with this source code; if not,        ¤
 #  ø          write to the EvinceDigital leader, @ binary.glitch@gmail.com.                                                               ø
 #.°                                                                                                                                        ° 
 #°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º' 
@@ -58,7 +58,7 @@ install: $(TARGET)
 	else \
 		echo "Existing config detected. Skipping overwrite to protect your settings."; \
 	fi
-	@echo "Installation complete. You can now run the 'ai' command with your flags"
+	@echo "Installation complete. You can now colaberate with your AIs by running the 'ai' command with your flags"
 
 clean:
 	rm -f $(TARGET)
