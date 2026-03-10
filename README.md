@@ -1,7 +1,7 @@
 # AI Dispatcher (BETA / WORK-IN-PROGRESS)
 
-> **WHAT IS THIS?** (For novice & non-technical users)
-> This is a "traffic controller" for AI. If you use multiple AI tools (like Gemini, Ollama, or specialized Linux AIs), this tool lets you talk to all of them from one single place in your terminal. Instead of opening different apps, you just type a simple shortcut, and this dispatcher sends your message to the right "AI Provider" for you.
+> **WHAT IS THIS?** (An explanation For novice & non-technical users)
+> This is command line tool for collaborating with multiple AIs (like Gemini, Ollama, or specialized Linux AIs), this tool lets you talk to all of them from one single command in your terminal. Instead of opening different apps, you just type a simple shortcut, and this dispatcher sends your message to the right AI collaborator. It does not include AI agents, it pipes you prompts to the approprate AI based on a flag you set in the con fig file. It also allows you to pipe the response from one AI to another.
 
 ---
 
@@ -16,15 +16,15 @@ If you just want to get this running, follow these three steps:
 
 1. **Install:** Download the files, open your terminal in that folder, and type:
    `sudo make && sudo make install`
-2. **Setup:** Create a text file in your home folder at `.config/ai.conf` and list your AIs like this:
+2. **Setup:** Edit the config file in your home folder at `.config/ai.conf` and list your AIs like this:
    `-g:gemini`
 3. **Talk:** Type `ai -g Hello there!` and your message will be sent to Gemini instantly.
 
 
-HEADS UP: This code is currently in "Draft" status. I am building this as a 3-man digital team (binary-glitch [Human] PM, Gemini [AI] Architect, and Electra [AI] Inspector). It is released now for peer review and feedback.
+HEADS UP: This code is currently in beta status. I am building this as a 3-man digital team (me, binary-glitch [Human] PM, Gemini [AI] Architect, and Electra [AI] Inspector). It is released now for peer review and feedback.
 
 Current Goal
-Creating a lean, hardened C++ gateway for multiple AI providers (Gemini, Makulu, etc.) using `execvp()` to bypass shell injection risks.
+Creating a lean, hardened C++ gateway for multiple AI providers (Gemini, Makulu, Llama/Ollama, etc.) using `execvp()` to bypass shell injection risks.
 
 Seeking Feedback On:
 • The `execvp()` argument handling logic.
@@ -34,12 +34,12 @@ Seeking Feedback On:
 • Potential edge cases in Linux environment variable handling (`$HOME`).
 
 The Philosophy
-Built on the principle of Survival of the Fittest, this dispatcher is stripped of all modern bloat. It uses zero external libraries, relies on old-school C-style system calls, and is hardened against shell injection using `execvp()`.
+Built on the philosophy of treating AI has collaborative peers, & the principal of creating a simple command line that is stripped of typical modern bloat. It uses zero external libraries, relies on old-school C-style system calls, and will be hardened against shell injection using `execvp()`.
 
 Features
-• Provider Roster: Manage your AI "team" via a simple text file (`~/.config/ai.conf`).
+• Provider Roster: Expand your AI team via a simple text file. (`~/.config/ai.conf`).
 
-• Lean Build: Tiny memory footprint, perfect for older hardware or minimal distros like BackBox.
+• Lean Build: Tiny memory footprint, perfect for older hardware or minimal distros and termal distros.
 
 • Security First: Bypasses the shell to prevent injection attacks.
 
