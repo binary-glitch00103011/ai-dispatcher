@@ -14,14 +14,14 @@
  '                                               EvinceDigital Ethical Open Source Covenant:                                              ' 
 :                                                                                                                                          :
 :           This source code is open source; you can redistribute it and/or modify it under the terms of the EvinceDigital                 : 
- °           OpenWeb Covenant as published by the EvinceDigital.                                                                           °
+ °           Open Source Covenant as published by the EvinceDigital.                                                                      °
   ¤                                                                                                                                      ¤     
   ø         This source code is distributed in the hope that it will be useful,but without any assurance or guarantee or                 ø         
  '           any implied fitness for any purpos. This is not a legal document, but rather it is an ethical appeal to one's                '  
 :            sense of moral obligation. It is a request to uphold the commonly known standards of Open Source coding & some                :
-:            hard earned lessons outlined in the rest of the EvinceDigital Ethical OpenWeb Covenant.                                       :
+:            hard earned lessons outlined in the rest of the EvinceDigital Ethical Open Source Covenant.                                   :
  °                                                                                                                                        °
-  ¤         You should have received a copy of the EvinceDigital Ethical OpenWeb Covenant along with this source code; if not,           ¤
+  ¤         You should have received a copy of the EvinceDigital Ethical Open Source Covenant along with this source code; if not,       ¤
   ø          write to the EvinceDigital leader, @ binary.glitch@gmail.com.                                                               ø
 .°                                                                                                                                        ° 
 °º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸¸,ø¤º°`°º¤ø,¸,ø¤°º¤ø,¸¸,ø¤º' 
@@ -32,17 +32,17 @@
                                                   EvinceDigital Ethical Open Source Covenant:
                                                                                                                                           
                           This source code is open source; you can redistribute it and/or modify it under the terms 
-                           of the EvinceDigital OpenWeb Covenant as published by the EvinceDigital.                                                                           
+                           of the EvinceDigital Open Source Covenant as published by the EvinceDigital.                                                                           
                                    
                                                                                                                                           
                           This source code is distributed in the hope that it will be useful,but without any assurance 
                            or guarantee or any implied fitness for any purpose. This is not a legal document, but 
                            rather it is an ethical appeal to one's sense of moral obligation. It is a request to uphold 
                            the commonly known standards of Open Source coding & some hard earned lessons outlined in the 
-                           rest of the EvinceDigital Ethical OpenWeb Covenant.                                       
+                           rest of the EvinceDigital Ethical Open Source Covenant.                                       
                                    
                                                                                                                                          
-                          You should have received a copy of the EvinceDigital Ethical OpenWeb Covenant along with this 
+                          You should have received a copy of the EvinceDigital Ethical Open Source Covenant along with this 
                            source code; if not, write to the EvinceDigital leader, @ binary.glitch@gmail.com.
 
 
