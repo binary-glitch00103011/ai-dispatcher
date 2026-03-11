@@ -60,9 +60,8 @@ Create a file at `~/.config/ai.conf`:
 # Flag:Command
 
 -g:gemini
-
+-G:GPT-cli
 -e:makulu-ai
-
 -o:ollama run llama3
 
 ```
