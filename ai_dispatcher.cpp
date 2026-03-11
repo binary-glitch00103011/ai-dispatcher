@@ -54,14 +54,14 @@ std::string trim(const std::string& str) {
  * ARCHITECT'S COLLABORATOR LOADER *
  ***********************************/
 
-std::map<std::string, std::string> loadProviders(std::string path) {
-    std::map<std::string, std::string> providerMap;
+std::map<std::string, std::string> loadCollaborators(std::string path) {
+    std::map<std::string, std::string> CollaboratorMap;
     std::ifstream file(path);
     std::string line;
 
     if (!file.is_open()) {
         std::cerr << "!! config ERROR: Missing file at " << path << std::endl;
-        return providerMap; 
+        return CollaboratorMap; 
     }
 
     while (std::getline(file, line)) {
@@ -72,10 +72,10 @@ std::map<std::string, std::string> loadProviders(std::string path) {
             // Apply the trim to both flag and command
             std::string flag = trim(line.substr(0, sep));
             std::string cmd = trim(line.substr(sep + 1));
-            providerMap[flag] = cmd; 
+            CollaboratorMap[flag] = cmd; 
         }
     }
-    return providerMap;
+    return CollaboratorMap;
 }
 
 int main(int argc, char* argv[]) {
@@ -94,18 +94,18 @@ int main(int argc, char* argv[]) {
     std::string configPath = std::string(home) + "/.config/ai/ai.config";
     
     // 3. INITIALIZE: Load Collaborators
-    auto providers = loadProviders(configPath);
+    auto Collaborators = loadCollaborators(configPath);
 
     // 4. DISPATCH: The Security Hardening (fork/execvp)
     std::string flag = argv[1];
 
-    if (providers.count(flag)) {
+    if (Collaborators.count(flag)) {
         // Build the argument list for execvp
         // execvp needs a NULL-terminated array of char pointers (old school!)
         std::vector<char*> execArgs;
 
         // The first argument is the command itself (the collaborator)
-        execArgs.push_back((char*)providers[flag].c_str());
+        execArgs.push_back((char*)Collaborators[flag].c_str());
 
         // The rest are the message words from the user
         for (int i = 2; i < argc; ++i) {
@@ -133,7 +133,7 @@ int main(int argc, char* argv[]) {
             return 1;
         }
     } else {
-        std::cerr << "!! ERROR: Provider '" << flag << "' not found." << std::endl;
+        std::cerr << "!! ERROR: Collaborator '" << flag << "' not found." << std::endl;
         return 1;
     }
 
