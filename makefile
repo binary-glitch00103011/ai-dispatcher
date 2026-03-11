@@ -14,7 +14,7 @@
 # '                                               EvinceDigital Ethical Open Source Covenant:                                              ' 
 #:                                                                                                                                          :
 #:           This source code is open source; you can redistribute it and/or modify it under the terms of the EvinceDigital                 : 
-# °           OpenWeb Covenant as published by the EvinceDigital.                                                                           °
+# °           Open Source Covenant as published by the EvinceDigital.                                                                           °
 #  ¤                                                                                                                                      ¤     
 #  ø         This source code is distributed in the hope that it will be useful,but without any assurance or guarantee or                 ø         
 # '           any implied fitness for any purpos. This is not a legal document, but rather it is an ethical appeal to one's                '  
