@@ -79,13 +79,13 @@ std::map<std::string, std::string> loadCollaborators(std::string path) {
 }
 
 int main(int argc, char* argv[]) {
-    // 1. AUDIT: Minimum requirements
+    // AUDIT: Minimum requirements
     if (argc < 3) {
         std::cout << "Usage: ai <flag> <your message>" << std::endl;
         return 1;
     }
 
-    // 2. PATHING: Keeping the old-school getenv()
+    // PATHING: Keeping the old-school getenv()
     const char* home = getenv("HOME");
     if (!home) {
         std::cerr << "!! SYSTEM ERROR: $HOME not found." << std::endl;
@@ -93,10 +93,10 @@ int main(int argc, char* argv[]) {
     }
     std::string configPath = std::string(home) + "/.config/ai/ai.config";
     
-    // 3. INITIALIZE: Load Collaborators
+    // INITIALIZE: Load Collaborators
     auto Collaborators = loadCollaborators(configPath);
 
-    // 4. DISPATCH: The Security Hardening (fork/execvp)
+    // DISPATCH: The Security Hardening (fork/execvp)
     std::string flag = argv[1];
 
     if (Collaborators.count(flag)) {
