@@ -45,15 +45,15 @@ Features
 
 • Multi-Word Support: No need for quotes; just type `ai -g how do I fix a segfault` and go.
 
+
 Installation
 1. Clone the repo.
-
 2. Build the binary: `make`
-
 3. Install to your path: `sudo make install`
 
+
 Configuration
-Create a file at `~/.config/ai.conf`:
+Edit the file at `~/.config/ai.conf`:
 
 ```
 
@@ -67,8 +67,7 @@ Create a file at `~/.config/ai.conf`:
 ```
 
 The Team
-• Project Manager: (binary_glitch)
 
-• Architect: Gemini (AI)
-
-• Inspector: Electra (Makulu AI)
+• Project Manager: [binary_glitch] (Human)
+• Architect: [Gemini] (Google AI)
+• Inspector: [Electra] (Makulu AI)
